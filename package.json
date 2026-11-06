@@ -3,13 +3,18 @@
   "displayName": "dodep",
   "description": "my first VS Code extension",
   "version": "0.0.1",
+  "publisher": "Yaroslav-podg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yaroslav-podg/dodep.git"
+  },
   "engines": {
     "vscode": "^1.144.0"
   },
   "categories": [
     "Other"
   ],
-  "main":"./dist/extension.js",
+  "main": "./dist/extension.js",
   "activationEvents": [
     "onCommand:roulette.open"
   ],
